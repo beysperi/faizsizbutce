@@ -1,0 +1,43 @@
+   
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f5ff;
+        }
+        
+        .budget-card {
+            transition: all 0.3s ease;
+        }
+        
+        .budget-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .income {
+            border-left: 4px solid #10b981;
+        }
+        
+        .expense {
+            border-left: 4px solid #ef4444;
+        }
+        
+        .category-badge {
+            transition: all 0.2s ease;
+        }
+        
+        .category-badge:hover {
+            transform: scale(1.05);
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+            width: 100%;
+        }
